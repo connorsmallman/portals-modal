@@ -55,8 +55,6 @@ class Parent extends React.Component {
 }
 
 function Child() {
-  // The click event on this button will bubble up to parent,
-  // because there is no 'onClick' attribute defined
   return (
     <div>
       This is my modal. There are many like it, but this one is mine. My modal is my best friend. It is my life. I must master it as I master my life. My modal, without me, is useless.
